@@ -4,6 +4,10 @@
 
 The Lead Tracker Chrome Extension is a simple and intuitive tool designed to help users manage their leads efficiently. This extension allows users to save links and notes directly from their browser, providing a streamlined way to keep track of potential opportunities.
 
+![Screenshot 2024-10-11 162935](https://github.com/user-attachments/assets/0968e7c5-e8f0-4b8a-b103-368b0dc27489)
+![Screenshot 2024-10-11 162917](https://github.com/user-attachments/assets/728c6aa3-be97-46e4-bac6-92f11a8ca2e1)
+
+
 ## Features
 
 - **Input Field**: Easily enter and save leads using a simple text input.
