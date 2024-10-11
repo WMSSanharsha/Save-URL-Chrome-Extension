@@ -1,19 +1,38 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Lead Tracker Chrome Extension
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Overview
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+The Lead Tracker Chrome Extension is a simple and intuitive tool designed to help users manage their leads efficiently. This extension allows users to save links and notes directly from their browser, providing a streamlined way to keep track of potential opportunities.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Features
 
-Happy Coding!
+- **Input Field**: Easily enter and save leads using a simple text input.
+- **Save Current Tab**: Quickly save the URL of the currently active tab with one click.
+- **Delete All Leads**: Clear all saved leads with a double-click on the delete button.
+- **Persistent Storage**: All saved leads are stored in the browser's local storage, ensuring they persist even after refreshing the page or closing the browser.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Chrome Extensions API
+
+## Installation
+
+1. Open Chrome and navigate to `chrome://extensions/`.
+2. Enable "Developer mode" at the top right corner.
+3. Click "Load unpacked" and select the cloned repository folder.
+4. The Lead Tracker extension should now be visible in your extensions list.
+
+## Usage
+
+- Click on the extension icon to open the popup.
+- Enter a lead in the input field and click "SAVE INPUT" to add it to your list.
+- Click "SAVE TAB" to store the URL of the current tab.
+- View your saved leads in the list below the input.
+- Double-click "DELETE ALL" to remove all saved leads.
+
+## Acknowledgements
+
+- Inspiration from Scrimba Course.
